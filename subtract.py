@@ -27,7 +27,7 @@ else:
   
 inVideo = cv2.VideoCapture(args.input)
   
-fourcc = cv2.VideoWriter_fourcc(*'MPEG')
+fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 inSize = (int(inVideo.get(cv2.CAP_PROP_FRAME_WIDTH)), int(inVideo.get(cv2.CAP_PROP_FRAME_HEIGHT)))
 fps = inVideo.get(cv2.CAP_PROP_FPS)
   
