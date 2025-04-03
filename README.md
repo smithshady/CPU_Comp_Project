@@ -14,3 +14,9 @@ ssh \<user>@hpsslab.com -p 49158 // Orin
 Run:
 
 ./subtract.py <cpu||cuda> demo_videos/background_subtractor_input.mp4
+
+View Output:
+
+- commit changes to repo (make a separate branch)
+- pull the repo on laptop (win/mac)
+- view the mp4 using any video software
