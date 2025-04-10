@@ -135,12 +135,13 @@ int main(int argc, char *argv[])
         // Only the benchmarked backend is enabled, and memories
         // are guaranteed to be used by only one stream.
         // uint64_t memFlags = backend | VPI_EXCLUSIVE_STREAM_ACCESS;
+        uint64_t backendMask = VPI_BACKEND_CUDA | VPI_BACKEND_CPU;
 
         // Create foreground image
-        CHECK_STATUS(vpiImageCreate(width, height, VPI_IMAGE_FORMAT_U8, 0, &fgmask));
+        CHECK_STATUS(vpiImageCreate(width, height, VPI_IMAGE_FORMAT_U8, backendMask, &fgmask));
 
         // Create background image
-        CHECK_STATUS(vpiImageCreate(width, height, VPI_IMAGE_FORMAT_BGR8, 0, &bgimage));
+        CHECK_STATUS(vpiImageCreate(width, height, VPI_IMAGE_FORMAT_BGR8, backendMask, &bgimage));
 
         // Create the events we'll need to get timing info
         CHECK_STATUS(vpiEventCreate(0, &evStart));
