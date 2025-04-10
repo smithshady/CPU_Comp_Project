@@ -1,3 +1,0 @@
-/home/smith3/CPU_Comp_Project/benchmark_cpp/CMakeFiles/vpi_sample_05_benchmark.dir
-/home/smith3/CPU_Comp_Project/benchmark_cpp/CMakeFiles/edit_cache.dir
-/home/smith3/CPU_Comp_Project/benchmark_cpp/CMakeFiles/rebuild_cache.dir
