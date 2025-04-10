@@ -1,3 +1,0 @@
-/home/smith3/CPU_Comp_Project/cpp/CMakeFiles/vpi_sample_14_background_subtractor.dir
-/home/smith3/CPU_Comp_Project/cpp/CMakeFiles/edit_cache.dir
-/home/smith3/CPU_Comp_Project/cpp/CMakeFiles/rebuild_cache.dir

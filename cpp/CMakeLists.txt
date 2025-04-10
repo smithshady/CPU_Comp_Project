@@ -33,6 +33,6 @@ set(CMAKE_CXX_STANDARD 11)
 find_package(vpi 2.2 REQUIRED)
 find_package(OpenCV REQUIRED)
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} main_benchmark.cpp)
 target_link_libraries(${PROJECT_NAME} vpi opencv_core
     opencv_imgproc opencv_imgcodecs opencv_videoio)
