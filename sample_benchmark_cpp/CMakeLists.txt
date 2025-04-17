@@ -30,5 +30,5 @@ project(vpi_sample_05_benchmark)
 
 find_package(vpi 2.2 REQUIRED)
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} new_main.cpp)
 target_link_libraries(${PROJECT_NAME} vpi)

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/vpi_sample_05_benchmark.dir/main.cpp.o -o vpi_sample_05_benchmark  -Wl,-rpath,/opt/nvidia/vpi2/lib/aarch64-linux-gnu /opt/nvidia/vpi2/lib/aarch64-linux-gnu/libnvvpi.so.2.2.7

@@ -127,7 +127,7 @@ int main(int argc, char *argv[])
 
         // 3. Gather timings --------------------
 
-        const int BATCH_COUNT     = 20;
+        const int BATCH_COUNT     = 25;
         const int AVERAGING_COUNT = 50;
 
         // Collect measurements for each execution batch
@@ -143,7 +143,7 @@ int main(int argc, char *argv[])
             for (int i = 0; i < AVERAGING_COUNT; ++i)
             {
                 // Call the algorithm to be measured.
-                vpiSubmitMedianFilter(stream, VPI_BACKEND_CPU, image, blurred, 3, 3, kernel, VPI_BORDER_ZERO);
+                vpiSubmitMedianFilter(stream, backend, image, blurred, 3, 3, kernel, VPI_BORDER_ZERO);
             }
 
             // Record stream queue just after blurring
